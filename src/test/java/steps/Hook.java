@@ -29,7 +29,7 @@ public class Hook extends BaseUtil{
 
 
         //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "");
+        System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/HTMLFreeStyle");
         base.Driver = new ChromeDriver();
     }
 
